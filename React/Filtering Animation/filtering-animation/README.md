@@ -1,7 +1,7 @@
 # Efeito de transição fadeout/fadein com API e framer-motion
 ## Site da API: https://developers.themoviedb.org
 ---
-
+![](public/efeito.gif.gif)
 
 
 <p align="center">
