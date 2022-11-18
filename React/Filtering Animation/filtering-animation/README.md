@@ -1,4 +1,7 @@
-# Area de estudo com diversos Frameworks e Bibliotecas
+# Efeito de transição fadeout/fadein com API e framer-motion
+## Site da API: https://developers.themoviedb.org
+---
+
 
 
 <p align="center">
