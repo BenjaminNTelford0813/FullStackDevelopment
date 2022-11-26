@@ -1,3 +1,5 @@
+/* THIS CODE IS THE TEMPLATE OF THE USER INFORMATIONS */
+
 import mongoose from "mongoose";
 
 
@@ -31,7 +33,7 @@ const userSchema = new mongoose.Schema (
             type: String,
             default: "",  
         },
-        firends: {
+        friends: {
             type: Array,
             default: []
         },
@@ -43,5 +45,5 @@ const userSchema = new mongoose.Schema (
     { timestamps: true }
 );
 
-const User = mongoose.model ("User", userSchema);
-export default User
+const userModel = mongoose.model ("User", userSchema);
+export default userModel

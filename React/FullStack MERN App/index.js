@@ -8,7 +8,9 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
-import { register } from "./controllers/auth.js"
+import { register } from "./controllers/auth_user.js"
+import authRoutes from "./routers/auth_routes.js"
+import userRoutes from "./routes/users_routes"
 
 /* Middleware Configurations */
 const __filename = fileURLToPath (import.meta.url);
@@ -38,7 +40,11 @@ const upload = multer ({storage});
 
 app.post ("/auth/register", upload.single ("picture"), register);
 
-/* Mongoose Configurations */
+//Routes //
+app.use ("auth_routes", authRoutes);
+app.user ("users_routes", userRoutes);
+
+// Mongoose Configurations //
 const PORT = process.env.PORT || 6001; //Backup port will be 6001, primary port is 3001 in ./env
 mongoose.connect (process.env.MONGO_URL, {
     useNewUrlParser: true,
