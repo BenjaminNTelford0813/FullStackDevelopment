@@ -5,4 +5,4 @@
 
 
 <p align="center">
-<img src="https://uploads-ssl.webflow.com/60cca9384ff7eaa931a24b69/60ce44133ce5aee0e6c9cac9_Mern.png" width="100" height="90"/>
+<img src="https://uploads-ssl.webflow.com/60cca9384ff7eaa931a24b69/60ce44133ce5aee0e6c9cac9_Mern.png" width="140" height="120"/>
