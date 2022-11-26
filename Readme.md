@@ -5,8 +5,6 @@
 <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" width="60" height="60"/
 >
 <img src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" width="60" height="60"/>
-</p>
-
 <img src="https://img.icons8.com/fluency/512/node-js.png" width="60" height="60"/>
 </p>
 
